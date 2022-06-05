@@ -27,7 +27,17 @@
       <name>Test Project Site</name>
       <url>file:///tmp/maven-project-site</url>
     </site>
-  </distributionManagement>
+  <repository>
+    <id>releases</id>
+    <!-- CHANGE HERE by your team nexus server -->
+    <url>http://15.206.173.147:8080/nexus/content/repositories/releases/</url>
+  </repository>
+  <snapshotRepository>
+    <id>snapshots</id>
+    <!-- CHANGE HERE by your team nexus server -->
+    <url>http://15.206.173.147:8080/nexus/content/repositories/snapshots/</url>
+  </snapshotRepository>
+</distributionManagement>
 
   <build>
     <plugins>
