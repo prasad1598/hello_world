@@ -27,6 +27,10 @@
       <name>Test Project Site</name>
       <url>file:///tmp/maven-project-site</url>
     </site>
+   </distributionManagement>
+  
+         
+  <distributionManagement>
   <repository>
     <id>releases</id>
     <!-- CHANGE HERE by your team nexus server -->
